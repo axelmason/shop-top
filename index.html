@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>ShopTop</title>
+</head>
+
+<body>
+    <!-- Шапка (header) -->
+    <header class="header bg-dark" id="header">
+        <a href="#">
+            <div class="logo-block d-flex flex-column align-items-center my-2">
+                <img src="img/logo.png" alt="" class="logo">
+                <div class="underlogo-text text-white text-center">Интернет-магазин цифровой техники</div>
+            </div>
+        </a>
+        <div class="phone text-white text-center my-3">
+            <a href="tel:+7900000000">Позвоните нам: <span class="text-primary">+7900000000</span></a>
+        </div>
+        <div class="nav_links row justify-content-around">
+            <a href="#" class="nav_link col-lg-2 col-12 col-sm-12">О нас</a>
+            <a href="#" class="nav_link col-lg-2 col-12 col-sm-12">Каталог</a>
+            <a href="#" class="nav_link col-lg-2 col-12 col-sm-12">Контакты</a>
+            <a href="#" class="nav_link col-lg-2 col-12 col-sm-12">Оформить заказ</a>
+        </div>
+    </header>
+    <!-- Блок с преимуществами -->
+    <div class="benefits-block my-3 bg-light">
+        <div class="container">
+            <div class="row">
+                <h2 class="text-center fs-1 py-1">Наши преимущества</h2>
+                <!-- 3 колонки, адаптивные для телефонов -->
+                <div class="justify-content-around d-flex flex-wrap">
+                    <div class="benefit-block col-lg-4 col-12 col-sm-12 col-md-4">
+                        <div class="benefit-text flex-column d-flex justify-content-center align-items-center">
+                            <img class="benefit-img img-fluid" src="img/clock-svgrepo-com.svg" alt="">
+                            <p class="fs-5 text-center">Быстрая доставка</p>
+                        </div>
+                    </div>
+                    <div class="benefit-block col-lg-4 col-12 col-sm-12 col-md-4">
+                        <div class="benefit-text flex-column d-flex justify-content-center align-items-center">
+                            <img class="benefit-img img-fluid" src="img/account_communication_pair_workers_users_icon_191624.svg" alt="">
+                            <p class="fs-5 text-center">Быстрая обратная связь</p>
+                        </div>
+                    </div>
+                    <div class="benefit-block col-lg-4 col-12 col-sm-12 col-md-4">
+                        <div class="benefit-text flex-column d-flex justify-content-center align-items-center">
+                            <img class="benefit-img img-fluid" src="img/wrench-svgrepo-com.svg" alt="">
+                            <p class="fs-5 text-center">Ремонт ПК</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="examples bg-dark text-white pt-3">
+        <div class="container">
+            <div class="row">
+                <h2 class="pb-3 fs-1 text-center">Мы предлагаем</h2>
+                <div class="justify-content-around d-flex flex-wrap text-dark">
+                    <div class="example-block col-lg-4 col-12 col-sm-12 col-md-4">
+                        <div class="example-item flex-column d-flex justify-content-between align-items-center">
+                            <img class="example-img img-fluid" src="img/verifyshieldwithcheckmark_81057.svg" alt="">
+                            <p class="fs-5">Гарантийное обслуживние</p>
+                            <p class="text-center">1 год - бесплатно<br>Далее - 1000 руб./год</p>
+                            <div class="btn btn-outline-danger">Подробнее...</div>
+                        </div>
+                    </div>
+                    <div class="example-block col-lg-4 col-12 col-sm-12 col-md-4">
+                        <div class="example-item flex-column d-flex justify-content-between align-items-center">
+                            <img class="example-img img-fluid" src="img/courier-svgrepo-com.svg" alt="">
+                            <p class="fs-5">Доставка курьером</p>
+                            <p class="text-center">10 рублей/км</p>
+                            <div class="btn btn-outline-danger">Подробнее...</div>
+                        </div>
+                    </div>
+                    <div class="example-block col-lg-4 col-12 col-sm-12 col-md-4">
+                        <div class="example-item flex-column d-flex justify-content-between align-items-center">
+                            <img class="example-img img-fluid" src="img/office-computer-svgrepo-com.svg" alt="">
+                            <p class="fs-5 text-center">Обслуживание ПК<br> + гарантия 5 лет<span class="text-danger" title="Информаию уточняйте у специалиста">*</span></p>
+                            <p class="text-center">3000 руб.</p>
+                            <div class="btn btn-outline-danger">Подробнее...</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="prices-block pt-3 mb-2">
+        <div class="container">
+            <h2 class="pb-3 fs-1 text-center">Товары</h2>
+            <div class="row mt-2">
+                <h2 class="fs-2">Телефоны</h2>
+                <div class="justify-content-around d-flex flex-wrap text-dark">
+                    <div class="price-block col-lg-4 col-12 col-sm-12">
+                        <div class="price-item flex-column d-flex justify-content-center align-items-center">
+                            <img class="price-img img-fluid" src="img/xiaomi.jpg" alt="">
+                            <p class="fs-5 text-center">Смартфон Xiaomi Redmi 9 64Gb, серый</p>
+                            <p class="text-center">13, 500 руб.</p>
+                            <div class="btn btn-outline-danger">Подробнее...</div>
+                        </div>
+                    </div>
+                    <div class="price-block col-lg-4 col-12 col-sm-12">
+                        <div class="price-item flex-column d-flex justify-content-center align-items-center">
+                            <img class="price-img img-fluid" src="img/iphone.jpg" alt="">
+                            <p class="fs-5 text-center">Смартфон Apple iPhone XS, чёрный</p>
+                            <p class="text-center">45, 300 руб.</p>
+                            <div class="btn btn-outline-danger">Подробнее...</div>
+                        </div>
+                    </div>
+                    <div class="price-block col-lg-4 col-12 col-sm-12">
+                        <div class="price-item flex-column d-flex justify-content-center align-items-center">
+                            <img class="price-img img-fluid" src="img/honor.jpg" alt="">
+                            <p class="fs-5 text-center">Смартфон Honor 10X Lite 4/128Gb, черный</p>
+                            <p class="text-center">16, 900 руб.</p>
+                            <div class="btn btn-outline-danger">Подробнее...</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-2">
+                <h2 class="fs-2">Комплектующие</h2>
+                <div class="justify-content-around d-flex flex-wrap text-dark">
+                    <div class="price-block col-lg-4 col-12 col-sm-12">
+                        <div class="price-item flex-column d-flex justify-content-center align-items-center">
+                            <img class="price-img img-fluid" src="img/1050ti.jpg" alt="">
+                            <p class="fs-5 text-center">Видеокарта GTX 1050Ti, 4gb, OC</p>
+                            <p class="text-center">27, 990 руб.</p>
+                            <div class="btn btn-outline-danger">Подробнее...</div>
+                        </div>
+                    </div>
+                    <div class="price-block col-lg-4 col-12 col-sm-12">
+                        <div class="price-item flex-column d-flex justify-content-center align-items-center">
+                            <img class="price-img img-fluid" src="img/ryzenCPU.jpg" alt="">
+                            <p class="fs-5 text-center">Процессор AMD Ryzen 5 2600, SocketAM4, OEM</p>
+                            <p class="text-center">17, 590 руб.</p>
+                            <div class="btn btn-outline-danger">Подробнее...</div>
+                        </div>
+                    </div>
+                    <div class="price-block col-lg-4 col-12 col-sm-12">
+                        <div class="price-item flex-column d-flex justify-content-center align-items-center">
+                            <img class="price-img img-fluid" src="img/powerblock.jpg" alt="">
+                            <p class="fs-5 text-center">Блок питания Aerocool VX PLUS 500W</p>
+                            <p class="text-center">2, 080 руб.</p>
+                            <div class="btn btn-outline-danger">Подробнее...</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-2">
+                <h2 class="fs-2">Другая техника</h2>
+                <div class="justify-content-around d-flex flex-wrap text-dark">
+                    <div class="price-block col-lg-4 col-12 col-sm-12">
+                        <div class="price-item flex-column d-flex justify-content-center align-items-center">
+                            <img class="price-img img-fluid" src="img/robot.jpg" alt="">
+                            <p class="fs-5 text-center">Робот-пылесос Xiaomi Mi Robot Vacuum Mop Essential</p>
+                            <p class="text-center">11, 990 руб.</p>
+                            <div class="btn btn-outline-danger">Подробнее...</div>
+                        </div>
+                    </div>
+                    <div class="price-block col-lg-4 col-12 col-sm-12">
+                        <div class="price-item flex-column d-flex justify-content-center align-items-center">
+                            <img class="price-img img-fluid" src="img/machine.jpg" alt="">
+                            <p class="fs-5 text-center">Стиральная машина Candy CS4 1051D1/2-07, фронтальная</p>
+                            <p class="text-center">14, 340 руб.</p>
+                            <div class="btn btn-outline-danger">Подробнее...</div>
+                        </div>
+                    </div>
+                    <div class="price-block col-lg-4 col-12 col-sm-12">
+                        <div class="price-item flex-column d-flex justify-content-center align-items-center">
+                            <img class="price-img img-fluid" src="img/fridge.jpg" alt="">
+                            <p class="fs-5 text-center">Холодильник NORDFROST ERB 432 032, двухкамерный</p>
+                            <p class="text-center">17, 990 руб.</p>
+                            <div class="btn btn-outline-danger">Подробнее...</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="app bg-dark" id="app">
+        <div class="container">
+            <h2 class="text-white text-center pt-3 fs-1">Отзывы</h2>
+            <div class="row">
+                <a href="#" class="text-light text-end">Оставить отзыв</a>
+                <div class="d-flex justify-content-between col-lg-12 col-12 col-sm-12 col-md-12">
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div
+                                    class="slide text-white d-flex justify-content-center col-lg-12 col-12 col-sm-12 col-md-12 align-items-center">
+                                    "Сломалась оперативка на машинке... А у меня работа через комп, требовалось срочно, за 2 часа
+                                    поменять оперативку!!! Решил зайти на сайт ShopTop, друзья посоветовали. Заказал оперативку по
+                                    ооочень вкусной цене. Пришла курьером за час, доставка всего 100 рублей вышла, так я ему еще и
+                                    чаевых оставил, быстро прибежал парень, да ещё и помог поставить. Спасибо!!"
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div
+                                    class="slide text-white d-flex justify-content-center col-lg-12 col-12 col-sm-12 col-md-12 align-items-center">
+                                    "10 лет стирала руками, денег на машинку для стирки не хватало, да и руки не доходили до этого.
+                                    И вот, вчера, я решила купить стиралку. Цена - огонь, помогли оформить рассрочку без процентов.
+                                    Теперь мои руки отдохнут..."
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div
+                                    class="slide text-white d-flex justify-content-center col-lg-12 col-12 col-sm-12 col-md-12 align-items-center">
+                                    "Доставили быстро. Это - самое главное!"
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div
+                                    class="slide text-white d-flex justify-content-center col-lg-12 col-12 col-sm-12 col-md-12 align-items-center">
+                                    "Купил, значит, у ShopTop мобилу, принёс домой - не выключается. Позвонил на горячую линию,
+                                    мне ответила девушка с красивым голосом) Сказала, что нужно нести в сервис, гарантийный случай оказался."
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div
+                                    class="slide text-white d-flex justify-content-center col-lg-12 col-12 col-sm-12 col-md-12 align-items-center">
+                                    "Холодильник тут купил с женой, морозит!"
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div
+                                    class="slide text-white d-flex justify-content-center col-lg-12 col-12 col-sm-12 col-md-12 align-items-center">
+                                    "Собрал тут компьютер на 30% дешевле, чем в других магазинах, да ещё и гарантия на год бесплатно!!!"
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev justify-content-start" type="button"
+                            data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Предыдущий</span>
+                        </button>
+                        <button class="carousel-control-next justify-content-end" type="button"
+                            data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Следующий</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="order-block row bg-white my-3" id="order">
+        <div class="container bg-light col-lg-6 col-11 col-sm-11">
+            <h2 class="fs-1 text-dark text-center p-3">Рассчитать стоимость доставки</h2>
+            <div class="form-wrapper d-flex justify-content-center">
+                <form action="" class="order-form d-flex justify-content-center flex-column col-lg-6 col-11 col-sm-11">
+                    <label for="delivery-type">Выберите тип доставки</label>
+                    <select class="form-select" name="delivery-type" id="delivery-type" aria-describedby="delivery-type-aria">
+                        <option value="1" selected>Самовывоз</option>
+                        <option value="2">Доставка (на почту) +250 руб.</option>
+                        <option value="3">Доставка (курьером) +10 руб./км</option>
+                    </select>
+                    <div id="delivery-type-aria" class="form-text mb-3">Тип доставки влияет на время доставки.</div>
+
+                    <label for="live-point">Место проживания</label>
+                    <input type="text" placeholder="Место для доставки" name="live-point" id="live-point" class="form-control mb-3">
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="importantBox">
+                        <label class="form-check-label" for="importantBox">Важный заказ (придёт быстрее, но на 30% дороже)</label>
+                    </div>
+                    <label for="promo">Промо-код (если есть)</label>
+                    <div class="row justify-content-between mb-3">
+                        <div class="col-lg-7 col-12 col-md-7 col-sm-12">
+                            <input type="text" class="form-control" id="promo" name="promo" placeholder="Даёт 5% кэшбека">
+                        </div>
+                        <div class="col-lg-5 col-12 col-md-5 col-sm-12">
+                        <button class="btn btn-success w-100">Применить</button></div>
+                    </div>
+                    <input type="submit" class="btn btn-primary mb-3" value="Рассчитать">
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="contact-block bg-dark text-white py-3" id="contact-block">
+        <h2 class="fs-1 text-center pb-2">Как нас найти?</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-12 col-sm-12 contact-list-block">
+                    Связаться с нами: <br><br>
+                    <ul class="contact-list">
+                        <li>Телефон: <a href="tel:+7900000000"><span class="text-primary">+7900000000</span></a></li>
+                        <li>Email: <a href="mailto:shoptop@mail.ru">shoptop@mail.ru</a></li>
+                        <li>Адрес: ул. 70 лет Октября, 24</li>
+                    </ul>
+                </div>
+                <div class="col-lg-6 col-12 col-sm-12">
+                    <div class="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2289.5147126728793!2d73.32098331606684!3d54.98160905867028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x43ab01939a02f559%3A0x61846970ce4a04a3!2z0JrQntCd0KLQmNCd0JXQndCi!5e0!3m2!1sru!2sru!4v1637663772903!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer bg-light py-4 d-flex justify-content-evenly">
+            <p>
+                © 2021 — Интернет-магазин техники ShopTop
+            </p>
+            <div class="d-flex flex-column">
+                <div class="social">
+                    <p class="social-title">Социальные сети</p>
+                    <div class="social-icons">
+                        <a href="https://ru-ru.facebook.com/" target="blank"><img src="img/facebook.svg" alt=""></a>
+                        <a href="https://www.youtube.com/" target="blank"><img src="img/youtube.svg" alt=""></a>
+                        <a href="https://wa.me/7900000000" target="blank"><img src="img/whatsapp.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+    </footer>
+    <div class="z-btns d-flex flex-column">
+        <a href="tel:+7900000000"><div class="z-btn btn btn-primary my-2"><img src="img/phone.svg" width="40" height="50" alt=""></div></a>
+        <a href="#header"><div class="z-btn btn btn-primary my-2"><img src="img/arrow-up.svg" width="40" height="50" alt=""></div></a>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+	integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+	crossorigin="anonymous"></script>
+</body>
+
+</html>
